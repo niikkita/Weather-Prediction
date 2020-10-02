@@ -58,7 +58,6 @@ body {
 </style>
 </head>
 <body>
-
 <div class="sidenav">
   <a href="sidebar.php" class="active">HOME</a>
   <a href="linear.php">PREDICTION USING LINEAR REGRESSION</a>
