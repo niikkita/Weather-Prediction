@@ -96,17 +96,7 @@ body {
   <center>
 <!-- <?php
 
-#if(isset($_POST['submit']))
-#{
-  #$input1 = $_POST['year'];
-  #$output = shell_exec("python linear-regression.py ".$input1);
-  #echo "<pre>";
-  #print_r($output);
-  #echo "</pre>";
 
-#}
-
-  ?> -->
 
 
     <?php
