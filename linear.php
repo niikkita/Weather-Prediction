@@ -87,7 +87,7 @@ body {
   <h3>Predict mean rainfall:</h3>
 
   <form action = "linear.php" method = "POST">
-  <center>  Enter the year to find out mean rainfall : <input type = "number" name = "year"></center>
+  <center>  Enter year to find out mean rainfall : <input type = "number" name = "year"></center>
 <!--   <center>  Enter mean temperature(max) : <input type = "number" name = "max"></center>
  -->
   <br><br>  <center><input type = "submit" class="button" name="submit" value = "PREDICT"></center>
@@ -106,7 +106,7 @@ body {
   $input = $_POST['year'];
  
   $output =  passthru("python linear-regression.py $input");
-echo "<pre>";
+  echo "<pre>";
 echo $output;
 echo "</pre>";
 }
